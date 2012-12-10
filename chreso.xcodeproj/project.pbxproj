@@ -1,0 +1,227 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB8CF27516761B3000F25F24 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8CF27416761B3000F25F24 /* CoreFoundation.framework */; };
+		FB8CF27816761B3000F25F24 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = FB8CF27716761B3000F25F24 /* main.c */; };
+		FB8CF27A16761B3000F25F24 /* chreso.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FB8CF27916761B3000F25F24 /* chreso.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FB8CF26E16761B3000F25F24 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				FB8CF27A16761B3000F25F24 /* chreso.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FB8CF27016761B3000F25F24 /* chreso */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = chreso; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8CF27416761B3000F25F24 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		FB8CF27716761B3000F25F24 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		FB8CF27916761B3000F25F24 /* chreso.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = chreso.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB8CF26D16761B3000F25F24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8CF27516761B3000F25F24 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB8CF26516761B3000F25F24 = {
+			isa = PBXGroup;
+			children = (
+				FB8CF27616761B3000F25F24 /* chreso */,
+				FB8CF27316761B3000F25F24 /* Frameworks */,
+				FB8CF27116761B3000F25F24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB8CF27116761B3000F25F24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB8CF27016761B3000F25F24 /* chreso */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB8CF27316761B3000F25F24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB8CF27416761B3000F25F24 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB8CF27616761B3000F25F24 /* chreso */ = {
+			isa = PBXGroup;
+			children = (
+				FB8CF27716761B3000F25F24 /* main.c */,
+				FB8CF27916761B3000F25F24 /* chreso.1 */,
+			);
+			path = chreso;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB8CF26F16761B3000F25F24 /* chreso */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB8CF27D16761B3000F25F24 /* Build configuration list for PBXNativeTarget "chreso" */;
+			buildPhases = (
+				FB8CF26C16761B3000F25F24 /* Sources */,
+				FB8CF26D16761B3000F25F24 /* Frameworks */,
+				FB8CF26E16761B3000F25F24 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chreso;
+			productName = chreso;
+			productReference = FB8CF27016761B3000F25F24 /* chreso */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB8CF26716761B3000F25F24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "かおる";
+			};
+			buildConfigurationList = FB8CF26A16761B3000F25F24 /* Build configuration list for PBXProject "chreso" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FB8CF26516761B3000F25F24;
+			productRefGroup = FB8CF27116761B3000F25F24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB8CF26F16761B3000F25F24 /* chreso */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB8CF26C16761B3000F25F24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8CF27816761B3000F25F24 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FB8CF27B16761B3000F25F24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FB8CF27C16761B3000F25F24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FB8CF27E16761B3000F25F24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB8CF27F16761B3000F25F24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB8CF26A16761B3000F25F24 /* Build configuration list for PBXProject "chreso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8CF27B16761B3000F25F24 /* Debug */,
+				FB8CF27C16761B3000F25F24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB8CF27D16761B3000F25F24 /* Build configuration list for PBXNativeTarget "chreso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8CF27E16761B3000F25F24 /* Debug */,
+				FB8CF27F16761B3000F25F24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB8CF26716761B3000F25F24 /* Project object */;
+}

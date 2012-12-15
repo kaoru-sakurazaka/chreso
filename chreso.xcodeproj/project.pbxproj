@@ -10,6 +10,7 @@
 		FB8CF27516761B3000F25F24 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8CF27416761B3000F25F24 /* CoreFoundation.framework */; };
 		FB8CF27816761B3000F25F24 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = FB8CF27716761B3000F25F24 /* main.c */; };
 		FB8CF27A16761B3000F25F24 /* chreso.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FB8CF27916761B3000F25F24 /* chreso.1 */; };
+		FB8CF28516761F6500F25F24 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8CF28416761F6500F25F24 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +31,7 @@
 		FB8CF27416761B3000F25F24 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		FB8CF27716761B3000F25F24 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		FB8CF27916761B3000F25F24 /* chreso.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = chreso.1; sourceTree = "<group>"; };
+		FB8CF28416761F6500F25F24 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB8CF28516761F6500F25F24 /* CoreGraphics.framework in Frameworks */,
 				FB8CF27516761B3000F25F24 /* CoreFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -64,6 +67,7 @@
 		FB8CF27316761B3000F25F24 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FB8CF28416761F6500F25F24 /* CoreGraphics.framework */,
 				FB8CF27416761B3000F25F24 /* CoreFoundation.framework */,
 			);
 			name = Frameworks;

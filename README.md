@@ -1,9 +1,9 @@
 chreso
 ======
-
 resolution change program for Mac OS X. (10.8 or later)
 
-
-License : MIT License
-
+License
+------
+Copyright Kaoru Sakurazaka  
+Licensed under the [MIT License]  
 http://opensource.org/licenses/mit-license.php
